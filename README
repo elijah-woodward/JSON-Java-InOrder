@@ -3,6 +3,9 @@ JSON in Java [package org.json]
 JSON is a light-weight, language independent, data interchange format.
 See http://www.JSON.org/
 
+This version is *very* lightly modified to preserve the ordering of opened JSON files.
+This, of course, is not standards-adherent, but sometimes you have one-off situations where you need to bend the rules.
+
 The files in this package implement JSON encoders/decoders in Java.
 It also includes the capability to convert between JSON and XML, HTTP
 headers, Cookies, and CDL.
